@@ -1,0 +1,9 @@
+.play-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.play-container-left{
+    width: 150%;
+}

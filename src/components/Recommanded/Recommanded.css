@@ -1,0 +1,31 @@
+.recommanded {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  position: sticky;
+  top: 100px;
+}
+
+.side-video-list {
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+.side-video-list img {
+  width: 170px;
+  height: 90px;
+  object-fit: cover;
+  /* display: block; */
+}
+
+.vid-info {
+  margin: 0;
+}
+.vid-info h4 {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,40 @@
+.feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  gap: 7px;
+  flex: 1;
+  overflow-y: scroll;
+  margin-top: 7px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  gap: 10px;
+  margin-bottom: 15px;
+  text-decoration: none;
+  color: inherit;
+  justify-content: space-between;
+}
+.card img {
+  height: 170px;
+  width: 100%;
+  margin: 0;
+  border-radius: 5px;
+}
+.card h2 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 400;
+  text-decoration: none;
+}
+.card h3 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+}
+.card p {
+  margin: 0;
+}
